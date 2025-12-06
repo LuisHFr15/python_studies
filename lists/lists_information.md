@@ -98,7 +98,7 @@ You can think that it's look like an iteration through the list choosing the spe
 
 **Average Cost = O(k)**
 
-You can set a slice of a list associating it with a list of same size
+You can set a slice of a list associating it with another Iterable (touples, lists, etc)
 ```python
 list[start:end] = list2
 ```
